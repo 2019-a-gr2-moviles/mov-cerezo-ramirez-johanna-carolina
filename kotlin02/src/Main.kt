@@ -34,6 +34,108 @@ fun main(args : Array<String>){
     estaJalado(10.0)
     estaJalado(7.0)
 
+    holaMundo(nombre)
+    holaMundoAvanzado(3)
+    sumarDosnUmeros(2,5)
+    val total = sumarDosnUmeros(2,5)
+    print(total)
+
+    val arregloCumpleanos = arrayOf(1, 2, 3, 4)
+    val arregloTodo = arrayOf(1, "dos", 5.0, 4)
+
+    arregloCumpleanos[0] = 5
+    arregloCumpleanos.set(0,5)
+
+
+    //val fecha = Date()
+    //fecha.time = 11231231
+    //fecha.year = 2000
+
+    val notas = arrayListOf(1, 2, 3, 4, 5, 6)
+
+    //For each :: iterar areglos:
+    notas.forEach{nota ->
+        println(nota)
+    }
+
+    notas.forEachIndexed { indice, nota ->
+        println("Indice: $indice")
+        println("nota: $nota")
+
+    }
+
+
+    // Operador MAP: itera y modifica el arreglo
+
+    val notasDos = notas.map {nota ->
+        nota + 1
+    }
+
+    notasDos.forEach{
+        println("Notas 2: $it")
+    }
+
+    val notasTres = notas.map{nota ->
+        if(nota%2 == 0){
+            nota + 2
+        }else{
+            nota +1
+        }
+    }
+
+    val notasCuatro = notas.map {nota->
+        val modulo = nota%2
+        val esPar = 0
+        when (modulo){
+            esPar -> {
+                nota + 2
+            }else ->{
+            nota + 1
+        }
+        }
+    }
+
+    //FILTER
+
+    val respuestaFilter = notas.filter{
+        it > 2
+    }
+
+    respuestaFilter.forEach{ println(it)}
+
+
+    val respuestaFilter2 = notas.filter{
+        it in 3..4
+        // it > 2 && it < 4
+    }.map {
+        it * 2
+    }
+
+    val novias = arrayListOf(1, 2, 2, 3, 4, 5)
+
+
+    //Any
+    val respuestaNovia = novias.any{
+        it == 3
+    }
+
+    println(respuestaNovia)
+
+        // All
+    val tazos = arrayListOf(1,2,3,4,5,6,7)
+    val respuestaTazos = tazos.all{
+        it>1
+    }
+    println(respuestaTazos) //devuelve falso
+
+    //REDUCE
+
+    val totalTazo = tazos.reduce{valorAcumulado, tazo ->
+        valorAcumulado + tazo
+    }
+
+    println(totalTazo) //Devuelve la suma de los tazos
+
 
 }
 
@@ -55,3 +157,14 @@ fun estaJalado(nota:Double){
     }
 }
 
+fun holaMundo(mensaje:String):Unit{
+    println("Mensaje: $mensaje")
+}
+
+
+fun holaMundoAvanzado(mensaje:Any):Unit{
+    println("Mensaje: $mensaje")
+}
+fun sumarDosnUmeros(numUno: Int, numDos:Int): Int{
+    return numUno + numDos
+}
