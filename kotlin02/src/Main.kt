@@ -168,3 +168,129 @@ fun holaMundoAvanzado(mensaje:Any):Unit{
 fun sumarDosnUmeros(numUno: Int, numDos:Int): Int{
     return numUno + numDos
 }
+
+// clase 5 a partir de aqui
+
+
+class Usuario(val cedula:String){
+    //Propiedades
+    //Se las debe inicializar
+    public var nombre:String = ""
+    public var apellido:String = ""
+
+    constructor(cedulaM:String,
+                apellido:String): this(cedulaM)  {
+        this.apellido = apellido
+    }
+
+
+
+}
+//Este es el principal tipo de constructor
+class UsuarioKT(public var nombre:String,
+                public var apellido:String,
+                private var id:Int,
+                protected var id_:Int){
+
+    //Public y unit son por defecto para las funciones
+    public fun hol():String{
+        return this.apellido
+    }
+    //Clases estaticas: cuando no se necestia instanciar una clase para utilizar los metodos o propiedades que tiene
+    // Se crean dentro de un companion object:
+
+    companion object {
+        val gravedad = 10.5
+        fun correr(){
+            println("estoy correindo en $gravedad")
+        }
+    }
+
+}
+
+//Ejemplo clase Estatica:
+class BaseDeDatos{
+    companion object {
+        val usuarios = arrayListOf(1,2,3)
+        fun agregarUsuarios(usuario:Int){
+            this.usuarios.add(usuario)
+        }
+    }
+}
+
+//Singelton = una unica extansia de una clase: se puede usar un companion object para almacenar ese singleton
+
+fun a(){
+    val adrian = UsuarioKT("a",  "b" , 111,111)
+    adrian.nombre = "aaaaasas"
+    //Set y gets ya estan creados previamente y solo se los usa no hay que crearlos
+    // Por defecto todas la propiedades en kotlin son publicas
+    //En los proyectos usar una clase base de datos con companion object par tener las funciones de eliminano,agregar, etc.
+    //Y se la puede extender a las otras clases oara
+}
+
+//Se puede tener varios constructores, estos existen para la sobrecarga de metodos: ac contiuacion un ejemplo
+class Numero(var numero:Int){
+    constructor(numeroString:String):this(numeroString.toInt()){
+        println("const")
+        //Se imprime segundo
+    }
+    init{
+        println("init")
+        //Se imprime primero
+    }
+}
+
+//Tambien existe para crear construntores con mas tipos de paramentros
+//Init pertenece al primer constructoe, es el bloque de codigo del primer constructor
+
+
+
+//Una calse abstracta es aquella que no se la instancia
+
+abstract class Numeros (var numeroUno:Int, var numeroDos: Int){
+
+}
+
+class Suma( numeroUnoss:Int,
+            numeroDoss:Int):Numeros(numeroUnoss,numeroDoss){
+
+}
+//Si solo se necestia parametros no se pone la palabra var o val, esto se usa para utilizar cuando se va a llenar la propiedades del padre
+fun cc(){
+    val a = Suma(1,2)
+}
+
+
+//Todas las clases en Kotlin son final
+//Se usa open cuando se le quiere quitar lo final a una clase para que luego esta clase se pueda heredar
+//Abstract se usa para cuando no se quiere instanciar esa clase
+
+
+//
+fun presley(requerido:Int,
+            opcional:Int = 1,
+            nulo:UsuarioKT?){
+    if(nulo != null){
+        nulo.nombre
+    }
+    val nombresito = nulo?.nombre.toString()
+    nulo!!.nombre //Este sirve como el If de mas arriba pero asegurandole al compilador que la variable no va a ser null nunca
+
+    //Int? siginfica que esta variable a veces va a ser nulo
+    // Y sirve para cualquier clase dentro de kotlin incluso las creadas por uno mismo
+
+
+}
+
+fun cddd(){
+    //named parameters:
+    presley(requerido=1, nulo = null)
+    presley(1,1,null)
+    presley(1, 1, null)
+
+}
+
+
+
+
