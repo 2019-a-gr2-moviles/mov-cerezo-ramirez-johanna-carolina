@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Te odio android studio</string>
+    <string name="action_settings">Settings</string>
+    <string name="hola_mundo">Hola mundo!</string>
+    <string name="texto">Este programa es el primero de muchos</string>
+
+</resources>
