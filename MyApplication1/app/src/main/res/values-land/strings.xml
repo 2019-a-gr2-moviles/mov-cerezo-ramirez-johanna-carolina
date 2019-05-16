@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ya no te odio tanto</string>
+    <string name="action_settings">Config</string>
+    <string name="hola_mundo">Bienvenido a mi programa</string>
+    <string name="texto" size="40">Este es el modo landscape</string>
+</resources>
