@@ -14,6 +14,10 @@ class MainActivity : AppCompatActivity() {
         btnParcelable.setOnClickListener {
             irAParceable()
         }
+        btn_adapter.setOnClickListener{
+            irAListView()
+        }
+
     }
 
     fun irAParceable(){
@@ -24,6 +28,13 @@ class MainActivity : AppCompatActivity() {
         intentExplicito.putExtra("usuario",j)
         val m = Mascota("fucsia",j)
         intentExplicito.putExtra("mascota",m)
+        startActivity(intentExplicito)
+    }
+
+    fun irAListView(){
+        val intentExplicito = Intent(
+            this,ListViewActivity::class.java
+        )
         startActivity(intentExplicito)
     }
 }
