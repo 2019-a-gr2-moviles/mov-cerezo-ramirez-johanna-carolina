@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen1B</string>
+    <string name="btnCreateCars">Create Car</string>
+    <string name="btnCreateDriver">Create Driver</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnIn">Log In</string>
+    <string name="btnManageCars">Manage Cars</string>
+    <string name="btnManageDrivers">Mange Drivers</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnsave">Save</string>
+    <string name="hBirthDate">Birth date</string>
+    <string name="hBrandName">Brand Name</string>
+    <string name="hCarsNumber">Cars number</string>
+    <string name="hChassis">Chassis</string>
+    <string name="hIdDriver">Id Driver</string>
+    <string name="hLastName">Lastname</string>
+    <string name="hLicense">License</string>
+    <string name="hModelName">Model Name</string>
+    <string name="hName">Name</string>
+    <string name="hYear">Year</string>
+    <string name="hcolor1">Color One</string>
+    <string name="hcolor2">Color Two</string>
+    <string name="strCreateCar">you\'ve created a new car with chassis number:</string>
+    <string name="strCreateDriver">you\'ve created a new driver with name:</string>
+    <string name="strDeleteCar">"you've deleted the car with chassis number: "</string>
+    <string name="strDeleteDriver">"you've deleted the driver: "</string>
+    <string name="strUpdateCar">you\'ve updated the car with chassis number:</string>
+    <string name="strUpdateDriver">you\'ve update the driver:</string>
+    <string name="srtCarsCrudHeader">Manage Car</string>
+    <string name="strCreateCarHeader">Create Car</string>
+    <string name="strCreateDriverHeader">Create Driver</string>
+    <string name="strDriversCrudHeader">Manage Driver</string>
+    <string name="strListViewCarsHeader">Cars</string>
+    <string name="strListViewDriversHeader">Drivers</string>
+    <string name="strMainHeader">Welcome</string>
+    <string name="strCantCreate">", you can't create a car with chassis number: "</string>
+    <string name="strCause">because it already exists</string>
+</resources>

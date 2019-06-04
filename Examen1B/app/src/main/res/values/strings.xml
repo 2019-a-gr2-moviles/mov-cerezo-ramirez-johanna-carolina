@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Examen1B</string>
+    <string name="btnIn">Ingresar</string>
+    <string name="btnManageDrivers">Gestionar Conductores</string>
+    <string name="btnCreateDriver">Crear Conductor</string>
+    <string name="btnsave">Guardar</string>
+    <string name="btnDelete">Borrar</string>
+    <string name="btnUpdate">Actualizar</string>
+    <string name="btnCreateCars">Crear Auto</string>
+    <string name="btnManageCars">Gestionar Autos</string>
+    <string name="hName">Nombre</string>
+    <string name="hLastName">Apellido</string>
+    <string name="hBirthDate">Fecha de nacimiento</string>
+    <string name="hLicense">Licencia</string>
+    <string name="hChassis">Chasis</string>
+    <string name="hBrandName">Nombre de la marca</string>
+    <string name="hcolor1">Color uno</string>
+    <string name="hcolor2">Color dos</string>
+    <string name="hModelName">Nombre Modelo</string>
+    <string name="hYear">Año</string>
+    <string name="hIdDriver">Id Conductor</string>
+    <string name="hCarsNumber">Número de autos</string>
+    <string name="strCreateDriver"> has creado un nuevo conductor de nombre: </string>
+    <string name="strCreateCar">has creado un nuevo auto con número de chasis: </string>
+    <string name="strDeleteDriver">has borrado al conductor: </string>
+    <string name="strUpdateDriver">has actualizado al conductor: </string>
+    <string name="strDeleteCar">has borrado el auto con número de chasis: </string>
+    <string name="strUpdateCar">"has actualizado el auto con número de chasis: "</string>
+    <string name="strMainHeader">"Bienvenido"</string>
+    <string name="strCreateDriverHeader">"Crear Conductor"</string>
+    <string name="strCreateCarHeader">"Crear Auto"</string>
+    <string name="strListViewCarsHeader">"Autos"</string>
+    <string name="strListViewDriversHeader">"Conductores"</string>
+    <string name="srtCarsCrudHeader">"Gestionar Auto"</string>
+    <string name="strDriversCrudHeader">"Gestionar Conductor"</string>
+    <string name="strCantCreate">"no puedes crear un auto con número de chassis: "</string>
+    <string name="strCause">"porque ya existe"</string>
+
+
+</resources>
