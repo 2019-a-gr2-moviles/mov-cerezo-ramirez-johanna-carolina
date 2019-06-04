@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DriversCrud">
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/lyCrudName">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hName" android:id="@+id/lyCrudNameText"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyCrudLastname"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/lyCrudName" android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+    >
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hLastName" android:id="@+id/lyCrudLastnameText"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyCrudBirthDate" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/lyCrudLastname">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hBirthDate" android:id="@+id/lyCrudBirthDateText"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/lyCrudBirthDate" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:id="@+id/lyCrudCarsNumber">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hCarsNumber" android:id="@+id/lyCrudCarsNumberText"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+            android:text="@string/btnDelete"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:id="@+id/btnDeleteDriver"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="25dp" android:layout_marginStart="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxCrudLicense" android:layout_marginTop="24dp"/>
+    <Button
+            android:text="@string/btnUpdate"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:id="@+id/btnUpadateDriver"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxCrudLicense"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="20dp" android:layout_marginRight="20dp"
+            app:layout_constraintStart_toEndOf="@+id/btnDeleteDriver" android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" app:layout_constraintHorizontal_bias="0.356"
+            android:layout_marginTop="24dp"/>
+    <Button
+            android:text="@string/btnManageCars"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnManageCars"
+            app:layout_constraintTop_toBottomOf="@+id/btnDeleteDriver" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="25dp" android:layout_marginStart="25dp" android:layout_marginTop="12dp"/>
+    <Button
+            android:text="@string/btnCreateCars"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCreateCar"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="20dp" android:layout_marginRight="20dp"
+            app:layout_constraintStart_toEndOf="@+id/btnManageCars"
+            app:layout_constraintTop_toBottomOf="@+id/btnUpadateDriver"
+            android:layout_marginTop="12dp" app:layout_constraintHorizontal_bias="0.369"
+            android:layout_marginLeft="10dp" android:layout_marginStart="10dp"/>
+    <CheckBox
+            android:text="@string/hLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxCrudLicense"
+            app:layout_constraintTop_toBottomOf="@+id/lyCrudCarsNumber" android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+</android.support.constraint.ConstraintLayout>
