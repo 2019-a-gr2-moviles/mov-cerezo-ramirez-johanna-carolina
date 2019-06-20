@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\d8dc0aec27272d61965ef6f3b416be35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2fa39fc5bdbe20af64bdf326666db318\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\129f2e9ab4cfa786823af91d2c50765b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\5e84641fefe89615619514a293931521\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2ec73792aabcdae6b7553809f953eae2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\3162a9ce2838cf6a34480b647694e4e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\6012ac479b05964ef474873fc735e74a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\936f808af1f0edb90dc33e7d46e82475\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1845d9a21d6fd34e8e037618a9cdf6a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\ec975521cea49e62a2b56768967811f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\a4574eb46d56bce1ca42ef4f47531f9f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4505551131938bfea2546fcb2885e08d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4cab214d9d1b31885c80039a4509c2b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4ef91f9d8bc9f24756a2900298fd25c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\8a7df32e433ccf9a9530dd5b5ba37ade\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\dd867ff83821b84d157517a6e987818d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\91f2187be37754e885919089ab5d3c11\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1404fcd0ce29acf3b1e5d1578a318b2a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\7dbec1ee781a47f0c1d8f24639035f3c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\3b1a2e9484c4b8709e02d4992127ada5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\5ebf28a98b352676a0f32af4d3223b02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\ebb0d9d38e30be184ab680d0d8062e7e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\fd1bb6985fe99701912522d4ebc5beaf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2bddee47fc71e0a0beec84eba78c8dff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\e5e66b93e4be65517d82f22386b143f8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\d65a18a82c597b3a36696c47eb14fced\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\0218f13ef094917c91fc0246e79e9a63\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\9a9e4c3eb9b91dd9774730766396a566\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:3:11-38
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2fa39fc5bdbe20af64bdf326666db318\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2fa39fc5bdbe20af64bdf326666db318\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\91f2187be37754e885919089ab5d3c11\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\91f2187be37754e885919089ab5d3c11\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1404fcd0ce29acf3b1e5d1578a318b2a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1404fcd0ce29acf3b1e5d1578a318b2a\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\91f2187be37754e885919089ab5d3c11\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.example.app2b.RecyclerViewActivity
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:12:9-13:20
+	android:name
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:12:19-55
+activity#com.example.app2b.MainActivity
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:16:17-68
+	android:name
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\d8dc0aec27272d61965ef6f3b416be35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\d8dc0aec27272d61965ef6f3b416be35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2fa39fc5bdbe20af64bdf326666db318\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2fa39fc5bdbe20af64bdf326666db318\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\129f2e9ab4cfa786823af91d2c50765b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\129f2e9ab4cfa786823af91d2c50765b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\5e84641fefe89615619514a293931521\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\5e84641fefe89615619514a293931521\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2ec73792aabcdae6b7553809f953eae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2ec73792aabcdae6b7553809f953eae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\3162a9ce2838cf6a34480b647694e4e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\3162a9ce2838cf6a34480b647694e4e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\6012ac479b05964ef474873fc735e74a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\6012ac479b05964ef474873fc735e74a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\936f808af1f0edb90dc33e7d46e82475\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\936f808af1f0edb90dc33e7d46e82475\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1845d9a21d6fd34e8e037618a9cdf6a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1845d9a21d6fd34e8e037618a9cdf6a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\ec975521cea49e62a2b56768967811f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\ec975521cea49e62a2b56768967811f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\a4574eb46d56bce1ca42ef4f47531f9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\a4574eb46d56bce1ca42ef4f47531f9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4505551131938bfea2546fcb2885e08d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4505551131938bfea2546fcb2885e08d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4cab214d9d1b31885c80039a4509c2b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4cab214d9d1b31885c80039a4509c2b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4ef91f9d8bc9f24756a2900298fd25c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\4ef91f9d8bc9f24756a2900298fd25c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\8a7df32e433ccf9a9530dd5b5ba37ade\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\8a7df32e433ccf9a9530dd5b5ba37ade\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\dd867ff83821b84d157517a6e987818d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\dd867ff83821b84d157517a6e987818d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\91f2187be37754e885919089ab5d3c11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\91f2187be37754e885919089ab5d3c11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1404fcd0ce29acf3b1e5d1578a318b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\1404fcd0ce29acf3b1e5d1578a318b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\7dbec1ee781a47f0c1d8f24639035f3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\7dbec1ee781a47f0c1d8f24639035f3c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\3b1a2e9484c4b8709e02d4992127ada5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\3b1a2e9484c4b8709e02d4992127ada5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\5ebf28a98b352676a0f32af4d3223b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\5ebf28a98b352676a0f32af4d3223b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\ebb0d9d38e30be184ab680d0d8062e7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\ebb0d9d38e30be184ab680d0d8062e7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\fd1bb6985fe99701912522d4ebc5beaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\fd1bb6985fe99701912522d4ebc5beaf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2bddee47fc71e0a0beec84eba78c8dff\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\2bddee47fc71e0a0beec84eba78c8dff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\e5e66b93e4be65517d82f22386b143f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\e5e66b93e4be65517d82f22386b143f8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\d65a18a82c597b3a36696c47eb14fced\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\d65a18a82c597b3a36696c47eb14fced\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\0218f13ef094917c91fc0246e79e9a63\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\0218f13ef094917c91fc0246e79e9a63\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\9a9e4c3eb9b91dd9774730766396a566\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Johanna\.gradle\caches\transforms-2\files-2.1\9a9e4c3eb9b91dd9774730766396a566\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Johanna\Documents\GitHub\mov-cerezo-ramirez-johanna-carolina\App2B\app\src\main\AndroidManifest.xml

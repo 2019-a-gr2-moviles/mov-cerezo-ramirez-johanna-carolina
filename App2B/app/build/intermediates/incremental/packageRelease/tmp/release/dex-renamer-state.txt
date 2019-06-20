@@ -1,0 +1,4 @@
+#Thu Jun 13 14:22:14 COT 2019
+base.0=C\:\\Users\\Johanna\\Documents\\GitHub\\mov-cerezo-ramirez-johanna-carolina\\App2B\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex
