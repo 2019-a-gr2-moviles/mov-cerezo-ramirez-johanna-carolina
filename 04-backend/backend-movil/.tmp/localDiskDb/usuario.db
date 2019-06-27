@@ -1,0 +1,7 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"cedula","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"username","unique":true,"sparse":false}}
+{"createdAt":1561062101756,"updatedAt":1561062101756,"id":1,"nombre":"Johanna","cedula":"0751010414","username":"jccerezo","fechaDeNacimiento":"","sueldo":100,"estaCasado":false,"longitudCasa":"","latitudCasa":"","tipoUsaurio":"","fkEmpresa":null,"_id":1}
+{"createdAt":1561062132056,"updatedAt":1561062132056,"id":2,"nombre":"Paula","cedula":"0751010489","username":"pacerezo","fechaDeNacimiento":"","sueldo":100,"estaCasado":false,"longitudCasa":"","latitudCasa":"","tipoUsaurio":"","fkEmpresa":null,"_id":2}
+{"$$deleted":true,"_id":2}
+{"createdAt":1561062132056,"updatedAt":1561150934254,"id":2,"nombre":"Paula","cedula":"0751010489","username":"pacerezo","fechaDeNacimiento":"","sueldo":100,"estaCasado":false,"longitudCasa":"","latitudCasa":"","tipoUsaurio":"","fkEmpresa":1,"_id":2}
