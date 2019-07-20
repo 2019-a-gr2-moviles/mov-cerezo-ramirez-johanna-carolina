@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Contraseña:" android:textColor="#0AD3FF" android:textColorHint="#0AD3FF"
-                android:textColorHighlight="#0AD3FF" android:textColorLink="#0AD3FF"/>
+                android:textColorHighlight="#0AD3FF" android:textColorLink="#0AD3FF" android:id="@+id/txtInputPassSI"/>
     </android.support.design.widget.TextInputLayout>
 
 </android.support.constraint.ConstraintLayout>

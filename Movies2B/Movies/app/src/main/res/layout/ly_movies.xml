@@ -3,17 +3,17 @@
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
-                                             android:layout_height="match_parent" android:id="@+id/lyMuseum">
+                                             android:layout_height="wrap_content" android:id="@+id/lyMuseum">
 
     <ImageView
-            android:layout_width="414dp"
+            android:layout_width="0dp"
             android:layout_height="219dp" app:srcCompat="@drawable/detectivepika"
             android:id="@+id/imgMovieInList"
             android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
     <LinearLayout
             android:orientation="vertical"
-            android:layout_width="414dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/imgMovieInList" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:background="#E1FAF9"
