@@ -20,6 +20,13 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
+  'POST /login' : {
+    action : 'user/login'
+  },
+  'GET /myMovies' : {
+    action : 'purchase/myMovies'
+  }
+
 
 
   /***************************************************************************

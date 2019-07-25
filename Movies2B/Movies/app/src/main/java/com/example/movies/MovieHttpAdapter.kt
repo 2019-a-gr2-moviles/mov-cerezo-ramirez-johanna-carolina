@@ -9,7 +9,9 @@ class MovieHttpAdapter {
     val url = "http://172.29.66.179:1337"
 
     fun getAll() : ArrayList<Movie>? {
-        var currentUrl = "$url/Movie"
+        var currentUrl = "${MainActivity.urlBackend}/Movie"
+
+        //var currentUrl = "${MainActivity.urlBackend}/myMovies?id=${User.currentUser.id}"
 
         var movieList : ArrayList<Movie>? = arrayListOf()
         currentUrl
@@ -37,5 +39,8 @@ class MovieHttpAdapter {
             }
         return movieList
     }
+
+
+
 
 }

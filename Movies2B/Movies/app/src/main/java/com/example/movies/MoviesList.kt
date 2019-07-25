@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.widget.Adapter
 import kotlinx.android.synthetic.main.activity_movies_list.*
+import kotlinx.android.synthetic.main.ly_movies.*
 
 class MoviesList : AppCompatActivity() {
 
@@ -20,19 +21,24 @@ class MoviesList : AppCompatActivity() {
         val recyclerView = rvMovies
         startRecyclerView(lista,this, recyclerView)
         Log.i("RV", "Recyclerview started" )
+        txtViewCurrentUsername.text = User.currentUser.name
 
-        btnUserMovies.setOnClickListener {
-            goToUserMovies()
-        }
+       btnCurrentUserMovies.setOnClickListener {
+           goToCurrentUserMovies()
+       }
 
     }
-    fun goToUserMovies(){
+
+
+
+    fun goToCurrentUserMovies(){
         val intentExplicito = Intent(
             this,
             UserMovies::class.java
         )
         startActivity(intentExplicito)
     }
+
     fun startRecyclerView(lista: ArrayList<Movie>, actividad:MoviesList, recycler_view: RecyclerView){
         val movieAdapter = AdapterMovie(
             lista,
@@ -47,5 +53,6 @@ class MoviesList : AppCompatActivity() {
 //        movieAdapter.notifyDataSetChanged()
 
     }
+
 
 }
