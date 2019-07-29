@@ -20,11 +20,11 @@
     <string name="hYear">Año</string>
     <string name="hIdDriver">Id Conductor</string>
     <string name="hCarsNumber">Número de autos</string>
-    <string name="strCreateDriver"> has creado un nuevo conductor de nombre: </string>
-    <string name="strCreateCar">has creado un nuevo auto con número de chasis: </string>
-    <string name="strDeleteDriver">has borrado al conductor: </string>
-    <string name="strUpdateDriver">has actualizado al conductor: </string>
-    <string name="strDeleteCar">has borrado el auto con número de chasis: </string>
+    <string name="strCreateDriver">has creado un nuevo conductor de nombre:</string>
+    <string name="strCreateCar">has creado un nuevo auto con número de chasis:</string>
+    <string name="strDeleteDriver">has borrado al conductor:</string>
+    <string name="strUpdateDriver">has actualizado al conductor:</string>
+    <string name="strDeleteCar">has borrado el auto con número de chasis:</string>
     <string name="strUpdateCar">"has actualizado el auto con número de chasis: "</string>
     <string name="strMainHeader">"Bienvenido"</string>
     <string name="strCreateDriverHeader">"Crear Conductor"</string>
@@ -35,6 +35,7 @@
     <string name="strDriversCrudHeader">"Gestionar Conductor"</string>
     <string name="strCantCreate">"no puedes crear un auto con número de chassis: "</string>
     <string name="strCause">"porque ya existe"</string>
+    <string name="title_activity_cars_maps">Map</string>
 
 
 </resources>
