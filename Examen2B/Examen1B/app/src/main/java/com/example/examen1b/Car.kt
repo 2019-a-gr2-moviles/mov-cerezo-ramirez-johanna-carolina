@@ -13,12 +13,19 @@ class Car (var id: Int,
            var lat : String) {
 
     companion object {
-        var allCarsList = arrayListOf<Car>()
+        var allCarsList = arrayListOf<Pair<Car, Int>>()
 
 
-        fun refreshList(){
-            allCarsList = CarHttpAdapter.getAllCars()!!
-            Log.i("load:", "cars loaded")
+        fun getAllCars(){
+            Log.i("carsList","$allCarsList")
+            Driver.driversList.forEachIndexed { index, driver ->
+                Log.i("carsList","${driver.name}")
+               driver.hasCars.forEach {
+                   Log.i("carsList","${it.modelName}")
+                   allCarsList.add(it to index)
+                   Log.i("carsList","$allCarsList")
+               }
+            }
         }
     }
 

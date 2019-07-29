@@ -30,8 +30,8 @@ class CreateCar : AppCompatActivity() {
         "colorTwo" to lyCreateColor2Text.text.toString(),
         "modelName" to lyCreateModelNameText.text.toString(),
         "year" to lyCreateYearInt.text.toString().toInt(),
-        "long" to "1234",
-        "lat" to "56789",
+        "long" to lyCreateLongText.text.toString(),
+        "lat" to lyCreateLatitudeText.text.toString(),
         "fkDriver" to Driver.driversList[id].id
         )
         CarHttpAdapter.createNewCar(carParams,Driver.driversList[id].id, id)
@@ -39,6 +39,7 @@ class CreateCar : AppCompatActivity() {
 
         // Car.carsList.add(Car(carChassis,carBrandName,carColor1,carColor2,carModelName,year,"1234","12345",(id+1).toString()))
         //${Car.carsList.last().chassis}
+        Car.getAllCars()
 
         Snackbar.make(it, "${User.currentUser.name} ${getString(R.string.strCreateCar)} ", Snackbar.LENGTH_LONG)
                 .show()

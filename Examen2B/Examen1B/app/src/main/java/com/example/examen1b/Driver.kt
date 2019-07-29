@@ -11,12 +11,6 @@ class Driver(var id : Int,
              var license : Boolean,
              var hasCars: ArrayList<Car> ) {
 
-
-   /* constructor( carsList:ArrayList<Car>,name : String,lastname: String, birthDate: String,carsNumber: Int,license : Boolean):this(name, lastname, birthDate, carsNumber, license){
-        this.carsList = carsList
-    }*/
-
-
     companion object {
         var driversList = arrayListOf<Driver>()
 
@@ -32,6 +26,7 @@ class Driver(var id : Int,
         fun refreshList(){
             driversList = DriverHttpAdapter.getAllDrivers()!!
             Log.i("load:", "movies loaded")
+
         }
 
 

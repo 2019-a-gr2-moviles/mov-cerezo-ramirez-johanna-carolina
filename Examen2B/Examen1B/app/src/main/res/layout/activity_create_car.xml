@@ -24,7 +24,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/lyCreateBrandName"
-            android:layout_marginTop="24dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:id="@+id/lyCreateColor1">
 
@@ -37,7 +37,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/lyCreateColor1"
-            android:layout_marginTop="24dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:id="@+id/lyCreateColor2">
 
@@ -50,7 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/lyCreateColor2"
-            android:layout_marginTop="24dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:id="@+id/lyCreateModelName">
 
@@ -68,13 +68,13 @@
             android:layout_marginLeft="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/lyCreateYearInt"/>
+    />
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/lyCreateChassisInt" android:layout_marginTop="70dp"
+            android:id="@+id/lyCreateChassisInt" android:layout_marginTop="10dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:hint="@string/hChassis"/>
@@ -83,8 +83,34 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/lyCreateYearInt" android:layout_marginTop="24dp"
+            android:id="@+id/lyCreateYearInt" android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/lyCreateModelName" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:hint="@string/hYear"/>
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/lyCreateYearInt" android:id="@+id/textInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Latitude" android:id="@+id/lyCreateLatitudeText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Logitude" android:id="@+id/lyCreateLongText"/>
+    </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,6 +38,9 @@ class CarsCrud : AppCompatActivity() {
         lyCrudColor2Text.setText(Driver.driversList[idDriver].hasCars[id].colorTwo)
         lyCrudModelNameText.setText(Driver.driversList[idDriver].hasCars[id].modelName)
         lyCrudYear.setText(""+Driver.driversList[idDriver].hasCars[id].year)
+        lyCrudLatText.setText(Driver.driversList[idDriver].hasCars[id].lat)
+        lyCrudLongText.setText(Driver.driversList[idDriver].hasCars[id].long)
+
 
     }
 
@@ -59,7 +62,9 @@ class CarsCrud : AppCompatActivity() {
             "brandName" to lyCrudBrandNameText.text.toString(),
             "colorOne" to lyCrudColor1Text.text.toString(),
             "colorTwo" to lyCrudColor2Text.text.toString(),
-            "year" to lyCrudYear.text.toString().toInt()
+            "year" to lyCrudYear.text.toString().toInt(),
+            "lat" to lyCrudLatText.text.toString().toInt(),
+            "long" to lyCrudLongText.text.toString().toInt()
         )
         CarHttpAdapter.updateCar(body,Driver.driversList[idDriver].hasCars[id].id)
 

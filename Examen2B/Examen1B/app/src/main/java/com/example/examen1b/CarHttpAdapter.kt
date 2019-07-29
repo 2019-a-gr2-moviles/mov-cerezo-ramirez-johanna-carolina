@@ -29,6 +29,8 @@ class CarHttpAdapter {
                         Log.i("createcar", "car created")
                         DriverHttpAdapter.addCarToDriver(driverId,position)
                         Driver.refreshList()
+
+
                     }
                 }
             }
@@ -70,35 +72,7 @@ class CarHttpAdapter {
         }
 
 
-        fun getAllCars(): ArrayList<Car>?{
-            var currentUrl = "${MainActivity.urlBackend}/Car"
 
-            var carList: ArrayList<Car>? = arrayListOf()
-            currentUrl
-                .httpGet()
-                .responseString { request, response, result ->
-                    when (result) {
-                        is Result.Failure -> {
-                            val ex = result.getException()
-                            Log.i("testingxd", "Error: ${ex.message}")
-                        }
-                        is Result.Success -> {
-                            val data = result.get()
-                            Log.i("testingxd", data)
-                            try {
-                                val driverListAux = Klaxon().parseArray<Car>(data)
-                                driverListAux?.forEach {
-                                    carList!!.add(it)
-                                }
-                                Car.allCarsList = carList!!
-                            } catch (e: Exception) {
-                                Log.i("testingxd", "Error buscando users: $e")
-                            }
-                        }
-                    }
-                }
-            return carList
-        }
 
 
 

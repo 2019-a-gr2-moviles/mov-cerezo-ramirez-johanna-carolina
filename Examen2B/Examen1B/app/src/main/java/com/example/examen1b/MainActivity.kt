@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setTitle(R.string.strMainHeader)
         Driver.refreshList()
-        Car.refreshList()
+
         btnIn.setOnClickListener {
             logIn()
         }
@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun logIn(){
+        Thread.sleep(1000)
+        Car.getAllCars()
         var name = lyInName.text.toString()
         User.logIn(name)
         if(User.currentUser != null){

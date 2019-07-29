@@ -1,5 +1,6 @@
 package com.example.examen1b
 
+import android.content.Intent
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -25,24 +26,11 @@ class CarsMapsActivity : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cars_maps)
         solicitarPermisosUbicacion()
-        Car.refreshList()
-
-
-
-
+   
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
-    }
-
-    fun anadirMarcador(latLng : LatLng, title:String, pair: Pair<Int, Int>){
-        var marker = mMap.addMarker(
-            MarkerOptions()
-                .position(latLng)
-                .title(title)
-        )
-        markers[marker.id] = pair
     }
 
     /**
@@ -63,15 +51,58 @@ class CarsMapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
 
         Car.allCarsList.forEach {
-
-
-
-            
-
+           val lat = it.first.lat.toDouble()
+           val lon = it.first.long.toDouble()
+           val site = LatLng(lat,lon)
+           val pair = Pair(searchIndex(it.first, it.second),it.second)
+           anadirMarcador(site, "${it.first.modelName} para ${Driver.driversList[it.second].name}", pair)
         }
 
 
+         mMap.setOnMarkerClickListener {
+            var pair = markers.get(it.id)
+                    //goToIngredientDetail(pair!!.first, pair!!.second)
+                    goToCarDetail(pair!!.first, pair!!.second)
+                    false
+        }
+
     }
+
+
+    fun goToCarDetail(position:Int, driverId:Int){
+        val intent = Intent(
+            this,
+            CarsCrud :: class.java
+        )
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        intent.putExtra("id", position)
+        intent.putExtra("idDriver", driverId)
+        startActivity(intent)
+    }
+
+
+
+    fun anadirMarcador(latLng : LatLng, title:String, pair: Pair<Int, Int>){
+        var marker = mMap.addMarker(
+            MarkerOptions()
+                .position(latLng)
+                .title(title)
+        )
+        markers[marker.id] = pair
+    }
+
+
+    fun searchIndex(ingredient: Car, index : Int) : Int {
+        var toReturn = -1
+        Driver.driversList[index].hasCars.forEachIndexed { index, car ->
+              if(car.id == ingredient.id){
+                       toReturn = index
+              }
+        }
+        return toReturn
+    }
+
+
 
 
     fun establecerConfiguracionMapa(mapa : GoogleMap){
