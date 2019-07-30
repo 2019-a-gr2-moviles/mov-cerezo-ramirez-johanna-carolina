@@ -55,7 +55,7 @@ class CarsMapsActivity : AppCompatActivity(), OnMapReadyCallback {
            val lon = it.first.long.toDouble()
            val site = LatLng(lat,lon)
            val pair = Pair(searchIndex(it.first, it.second),it.second)
-           anadirMarcador(site, "${it.first.modelName} para ${Driver.driversList[it.second].name}", pair)
+           anadirMarcador(site, "${it.first.modelName} de ${Driver.driversList[it.second].name}", pair)
         }
 
 
